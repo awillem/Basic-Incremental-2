@@ -1,0 +1,116 @@
+* {
+    
+    font-family: 'Cabin', sans-serif;
+}
+body {
+    background: black;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+#container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+    height: 100%;
+    background: #333;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    margin: auto;
+    text-align: center;
+}
+
+#buyMulti {
+    padding: 0;
+}
+
+#buyMulti li {
+    display: inline;
+    list-style: none;  
+    border: white solid 2px;
+    background-color: #999;
+    box-shadow: 2px 2px 2px #777;
+    border-radius: 4px;
+    padding: 3px;
+    margin: 2px;  
+}
+#buyMulti a {
+    display: inline;
+}
+
+#buyMulti li:hover {
+    background-color: #444;
+    border: #444 solid 2px;
+}
+
+li#active {
+    color: black;
+    border: #aaa 2px solid;
+    background: #222;
+}
+
+
+
+
+li a {
+    padding: 0px 5px;
+}
+
+#game-container {
+    margin: auto;
+    width: 95%;
+    height: 80%;
+    border-radius: 4px;
+    border: white double 5px;
+}
+
+.business {
+    width: 300px;
+    height: 250px;
+    margin: 6px;
+    border: white solid 2px;
+    border-radius: 4px;
+    float: left;
+}
+.business p {
+    
+    text-align: center;
+}
+
+.business button {
+    display: block;
+    margin: 0 auto;
+    width: 7em;
+    height: 3em;
+    border-radius: 4px;
+}
+
+.not-active {
+    background: #333;
+}
+
+h3 {
+    text-align: center;
+}
+
+#game-container div ul li {
+    list-style: none;
+}
+
+#game-container div ul li span {
+    padding-left: 10px;
+}
+
+#game-container div ul li span.time {
+    padding-left: 0px;
+}
+

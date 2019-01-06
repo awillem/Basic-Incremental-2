@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Basic Incremental</title>
+
+  <meta name="description" content="Basic Incremental">
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div class="heading">
+      <h1>Incremental Game</h1>
+      <div>
+        <h2>$ <span id="total-money">0</span></h2>
+        <div id="MultiButtons">
+          <label>Buy Multiple:</label>
+          <ul id="buyMulti">
+
+            <li id="active"><a>1</a></li>
+            <li><a>10</a></li>
+            <li><a>50</a></li>
+            <li><a>100</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="game-container">
+      <div id="lemonade" class="business">
+        <h3>Lemonade Stand</h3>
+        <ul>
+            <li>Owned: <span class="owned">0</span></li>
+            <li>Earnings: $<span class="earnings">1</span></li>
+            <li>Multiplier: <span class="multiplier">0</span></li>
+            <li><span class="time">5</span>  seconds</li>
+          </ul>
+          <p>Cost: $<span class="cost">20</span></p>
+          <button class="lemonade">BUY</button>
+      </div>
+      <div id="slushie" class="business">
+        <h3>Slushie Stand</h3>
+        <ul>
+          <li>Owned: <span class="owned">0</span></li>
+          <li>Earnings: $<span  class="earnings">20</span></li>
+          <li>Multiplier: <span class="multiplier">0</span></li>
+          <li><span class="time">8</span>  seconds</li>
+        </ul>        
+        <p>Cost: $<span class="cost">400</span></p>
+        <button class="slushie">BUY</button>
+      </div>
+      <div id="coffee" class="business">
+        <h3>Coffee Stand</h3>
+        <ul>
+          <li>Owned: <span class="owned">0</span></li>
+          <li>Earnings: $<span  class="earnings">400</span></li>
+          <li>Multiplier: <span class="multiplier">0</span></li>
+          <li><span class="time">12</span>  seconds</li>
+        </ul>
+        <p>Cost: $<span class="cost">8000</span></p>
+        <button class="coffee">BUY</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/Business.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
